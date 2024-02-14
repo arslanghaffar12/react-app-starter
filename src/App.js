@@ -13,9 +13,9 @@ function App() {
       <Routes>
         <Route path='/login' element={< Login/>} />
         <Route path='/' element={
-        <Authenticate>
+        // <Authenticate>
           <Layout />
-          </Authenticate>
+          // </Authenticate>
         }>
           <Route index element={<Summary />} />
 

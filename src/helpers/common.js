@@ -1,4 +1,7 @@
 import { encryptStorage } from './encryptStorage'
+import _logo from '../assets/logo.png'
+
+export const logo = _logo
 
 export const storage = {
     set: (key, value) => {
@@ -31,4 +34,6 @@ export const enums = {
     ROLE_ADMIN: "admin",
 
 }
+
+
 
